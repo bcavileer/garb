@@ -1,22 +1,5 @@
 module SymbolOperatorMethods
-  OPERATORS = {
-    :eql     => '==',
-    :not_eql => '!=',
-    :gt      => '>',
-    :gte     => '>=',
-    :lt      => '<',
-    :lte     => '<=',
-    :matches => '==',
-    
-    :does_not_match   => '!=',
-    :contains         => '=~',
-    :does_not_contain => '!~',
-    :substring        => '=@',
-    :not_substring    => '!@',
-    
-    :desc       => '-',
-    :descending => '-'
-  }
+  OPERATORS = {}
   SLUGS = OPERATORS.keys.freeze
 
   def to_google_analytics
